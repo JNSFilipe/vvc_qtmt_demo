@@ -18,7 +18,7 @@ if isunix
     exec = "./vvc/linux/EncoderAppStatic -v 6 ";
     out_path = "-o /dev/null ";
 elseif ispc
-    exec = "./vvc/windows/EncoderApp.exe -v 6 ";
+    exec = ".\vvc\windows\EncoderApp.exe -v 6 ";
     out_path = "-o null ";
 end
 

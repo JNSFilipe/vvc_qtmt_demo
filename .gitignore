@@ -4,6 +4,9 @@
 /recs/*
 !.gitkeep
 
+# Ignore maltlab temp files
+*.asv
+
 # Prerequisites
 *.d
 
