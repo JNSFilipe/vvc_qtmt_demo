@@ -1,3 +1,9 @@
+# Ignore Contents of Certain Folders
+/bitstreams/*
+/logs/*
+/recs/*
+!.gitkeep
+
 # Prerequisites
 *.d
 

@@ -1,0 +1,292 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/tmp/VVCSoftware_VTM/bin/umake/gcc-9.4/x86_64/release/EncoderApp"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_compile_options",
+			"bb_enable_warnings",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"source/App/EncoderApp/CMakeLists.txt",
+			"cmake/CMakeBuild/cmake/modules/BBuildEnv.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 60,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 523,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 523,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 523,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 523,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 86,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -fPIE"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fdiagnostics-show-option"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-msse4.1"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/tmp/VVCSoftware_VTM/build/source/App/EncoderApp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/tmp/VVCSoftware_VTM/source/Lib/CommonLib/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/tmp/VVCSoftware_VTM/source/Lib/CommonLib/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/tmp/VVCSoftware_VTM/source/Lib/CommonLib/./x86"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/tmp/VVCSoftware_VTM/source/Lib/CommonLib/../libmd5"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/tmp/VVCSoftware_VTM/source/Lib/EncoderLib/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/tmp/VVCSoftware_VTM/source/Lib/DecoderLib/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/tmp/VVCSoftware_VTM/source/Lib/Utilities/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/tmp/VVCSoftware_VTM/source/Lib/Utilities/.."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "CommonLib::@bf1184d7f3aab627351b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "DecoderLib::@a2594b0b1ec318aa6202"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "EncoderLib::@14bff79c6c6d373addde"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Utilities::@22506e0f2c08d681b925"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "app"
+	},
+	"id" : "EncoderApp::@2fd33798816d28a16883",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../lib/umake/gcc-9.4/x86_64/release/libCommonLib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../lib/umake/gcc-9.4/x86_64/release/libEncoderLib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../lib/umake/gcc-9.4/x86_64/release/libDecoderLib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../lib/umake/gcc-9.4/x86_64/release/libUtilities.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../lib/umake/gcc-9.4/x86_64/release/libCommonLib.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "EncoderApp",
+	"nameOnDisk" : "EncoderApp",
+	"paths" : 
+	{
+		"build" : "source/App/EncoderApp",
+		"source" : "source/App/EncoderApp"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/App/EncoderApp/EncApp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/App/EncoderApp/EncAppCfg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/App/EncoderApp/encmain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source/App/EncoderApp/EncApp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "source/App/EncoderApp/EncAppCfg.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
