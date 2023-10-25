@@ -36,3 +36,6 @@
 *.exe
 *.out
 *.app
+
+# Include Windows compiled executables
+!/vvc/windows/*.exe

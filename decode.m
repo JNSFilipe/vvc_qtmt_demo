@@ -16,7 +16,7 @@ end
 if isunix
     exec = "./vvc/linux/DecoderAppStatic ";
 elseif ispc
-    exec = "./vvc/win/DecoderApp.exe ";
+    exec = "./vvc/windows/DecoderApp.exe ";
 end
 
 command = exec + ...
