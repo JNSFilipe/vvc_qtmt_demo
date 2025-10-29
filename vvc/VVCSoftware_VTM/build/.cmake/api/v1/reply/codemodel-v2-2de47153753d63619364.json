@@ -1,0 +1,426 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "source/Lib/CommonLib",
+					"jsonFile" : "directory-source.Lib.CommonLib-Release-ffe0c6134f06209bacca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/Lib/CommonLib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "source/Lib/CommonAnalyserLib",
+					"jsonFile" : "directory-source.Lib.CommonAnalyserLib-Release-c74979b6cf022d4d70e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/Lib/CommonAnalyserLib",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "source/Lib/DecoderAnalyserLib",
+					"jsonFile" : "directory-source.Lib.DecoderAnalyserLib-Release-2fcf2aa2634f14b200ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/Lib/DecoderAnalyserLib",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "source/Lib/DecoderLib",
+					"jsonFile" : "directory-source.Lib.DecoderLib-Release-af1e6d38f9cd3422f4ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/Lib/DecoderLib",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "source/Lib/EncoderLib",
+					"jsonFile" : "directory-source.Lib.EncoderLib-Release-73f5394bd0900554dcf0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/Lib/EncoderLib",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "source/Lib/Utilities",
+					"jsonFile" : "directory-source.Lib.Utilities-Release-7b0165a065e2c6ce6fe6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/Lib/Utilities",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "source/App/DecoderAnalyserApp",
+					"jsonFile" : "directory-source.App.DecoderAnalyserApp-Release-aa792d542a26f7d79853.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/App/DecoderAnalyserApp",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "source/App/DecoderApp",
+					"jsonFile" : "directory-source.App.DecoderApp-Release-8d533458a10fd74e4f32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/App/DecoderApp",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "source/App/EncoderApp",
+					"jsonFile" : "directory-source.App.EncoderApp-Release-089190c235df25fe9a98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/App/EncoderApp",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "source/App/SEIRemovalApp",
+					"jsonFile" : "directory-source.App.SEIRemovalApp-Release-68e36df6b08dfb3ee807.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/App/SEIRemovalApp",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "source/App/SEIFilmGrainApp",
+					"jsonFile" : "directory-source.App.SEIFilmGrainApp-Release-70148df4a6709e60a86a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/App/SEIFilmGrainApp",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "source/App/Parcat",
+					"jsonFile" : "directory-source.App.Parcat-Release-56a2452056ae642abd83.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/App/Parcat",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "source/App/StreamMergeApp",
+					"jsonFile" : "directory-source.App.StreamMergeApp-Release-c167ff4267dc6b478df0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/App/StreamMergeApp",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "source/App/BitstreamExtractorApp",
+					"jsonFile" : "directory-source.App.BitstreamExtractorApp-Release-d15cdfdc3795849ec95a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/App/BitstreamExtractorApp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "source/App/SubpicMergeApp",
+					"jsonFile" : "directory-source.App.SubpicMergeApp-Release-0a252f5211bcd7ff2885.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/App/SubpicMergeApp",
+					"targetIndexes" : 
+					[
+						12
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"name" : "NextSoftware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 14,
+					"id" : "BitstreamExtractorApp::@8eb7a6fbefa8ad5116a6",
+					"jsonFile" : "target-BitstreamExtractorApp-Release-e62d728c51c3bebe0ead.json",
+					"name" : "BitstreamExtractorApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CommonAnalyserLib::@f072a9c2779170bb8d3d",
+					"jsonFile" : "target-CommonAnalyserLib-Release-4e66b91154826b93c63b.json",
+					"name" : "CommonAnalyserLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CommonLib::@bf1184d7f3aab627351b",
+					"jsonFile" : "target-CommonLib-Release-876f04a18e36132a6477.json",
+					"name" : "CommonLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "DecoderAnalyserApp::@e878efca4bae3087f30b",
+					"jsonFile" : "target-DecoderAnalyserApp-Release-44f6f1318e696e230b75.json",
+					"name" : "DecoderAnalyserApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "DecoderAnalyserLib::@454488308de6001127ac",
+					"jsonFile" : "target-DecoderAnalyserLib-Release-3ebc8b0ebc61fee8908d.json",
+					"name" : "DecoderAnalyserLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "DecoderApp::@57709660c77fbf7cafd4",
+					"jsonFile" : "target-DecoderApp-Release-19aa5933e581e9d7351d.json",
+					"name" : "DecoderApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "DecoderLib::@a2594b0b1ec318aa6202",
+					"jsonFile" : "target-DecoderLib-Release-b8f8e645b7fd287b24d4.json",
+					"name" : "DecoderLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "EncoderApp::@2fd33798816d28a16883",
+					"jsonFile" : "target-EncoderApp-Release-e7cd64d65846a2c51da4.json",
+					"name" : "EncoderApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "EncoderLib::@14bff79c6c6d373addde",
+					"jsonFile" : "target-EncoderLib-Release-69756da0de5084c72fb5.json",
+					"name" : "EncoderLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "SEIFilmGrainApp::@3c3dbbf48c3f70139998",
+					"jsonFile" : "target-SEIFilmGrainApp-Release-a1e87dc8b239dce8cb7e.json",
+					"name" : "SEIFilmGrainApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "SEIRemovalApp::@cc0d2f72271c48d583cc",
+					"jsonFile" : "target-SEIRemovalApp-Release-e2db20077e6ef93ef689.json",
+					"name" : "SEIRemovalApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "StreamMergeApp::@0f768d19412c8ec45d73",
+					"jsonFile" : "target-StreamMergeApp-Release-6dfc2b3cce32fcbfe822.json",
+					"name" : "StreamMergeApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "SubpicMergeApp::@53257c1c3c794312ea9e",
+					"jsonFile" : "target-SubpicMergeApp-Release-4ae96fab8d80cbfb03cb.json",
+					"name" : "SubpicMergeApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Utilities::@22506e0f2c08d681b925",
+					"jsonFile" : "target-Utilities-Release-b7af195a5eda44a891bd.json",
+					"name" : "Utilities",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "parcat::@77d567c5afdb55d0a664",
+					"jsonFile" : "target-parcat-Release-2c497088fe22d7d18849.json",
+					"name" : "parcat",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM/build",
+		"source" : "/Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

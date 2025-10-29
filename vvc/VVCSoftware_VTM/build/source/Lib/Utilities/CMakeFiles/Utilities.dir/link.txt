@@ -1,2 +1,2 @@
-/usr/bin/ar qc ../../../../lib/umake/gcc-9.4/x86_64/release/libUtilities.a CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o CMakeFiles/Utilities.dir/program_options_lite.cpp.o
-/usr/bin/ranlib ../../../../lib/umake/gcc-9.4/x86_64/release/libUtilities.a
+/usr/bin/ar qc /Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM/lib/umake/clang-17.0/x86_64/release/libUtilities.a CMakeFiles/Utilities.dir/VideoIOYuv.cpp.o CMakeFiles/Utilities.dir/program_options_lite.cpp.o
+/usr/bin/ranlib /Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM/lib/umake/clang-17.0/x86_64/release/libUtilities.a

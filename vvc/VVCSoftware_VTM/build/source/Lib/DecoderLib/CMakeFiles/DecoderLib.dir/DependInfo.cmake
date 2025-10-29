@@ -1,33 +1,30 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/VVCSoftware_VTM/source/Lib/DecoderLib/AnnexBread.cpp" "/tmp/VVCSoftware_VTM/build/source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/AnnexBread.cpp.o"
-  "/tmp/VVCSoftware_VTM/source/Lib/DecoderLib/BinDecoder.cpp" "/tmp/VVCSoftware_VTM/build/source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/BinDecoder.cpp.o"
-  "/tmp/VVCSoftware_VTM/source/Lib/DecoderLib/CABACReader.cpp" "/tmp/VVCSoftware_VTM/build/source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/CABACReader.cpp.o"
-  "/tmp/VVCSoftware_VTM/source/Lib/DecoderLib/DecCu.cpp" "/tmp/VVCSoftware_VTM/build/source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/DecCu.cpp.o"
-  "/tmp/VVCSoftware_VTM/source/Lib/DecoderLib/DecLib.cpp" "/tmp/VVCSoftware_VTM/build/source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/DecLib.cpp.o"
-  "/tmp/VVCSoftware_VTM/source/Lib/DecoderLib/DecSlice.cpp" "/tmp/VVCSoftware_VTM/build/source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/DecSlice.cpp.o"
-  "/tmp/VVCSoftware_VTM/source/Lib/DecoderLib/NALread.cpp" "/tmp/VVCSoftware_VTM/build/source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/NALread.cpp.o"
-  "/tmp/VVCSoftware_VTM/source/Lib/DecoderLib/SEIread.cpp" "/tmp/VVCSoftware_VTM/build/source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/SEIread.cpp.o"
-  "/tmp/VVCSoftware_VTM/source/Lib/DecoderLib/VLCReader.cpp" "/tmp/VVCSoftware_VTM/build/source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/VLCReader.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../source/Lib/DecoderLib/."
-  "../source/Lib/CommonLib/."
-  "../source/Lib/CommonLib/.."
-  "../source/Lib/CommonLib/./x86"
-  "../source/Lib/CommonLib/../libmd5"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/tmp/VVCSoftware_VTM/build/source/Lib/CommonLib/CMakeFiles/CommonLib.dir/DependInfo.cmake"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM/source/Lib/DecoderLib/AnnexBread.cpp" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/AnnexBread.cpp.o" "gcc" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/AnnexBread.cpp.o.d"
+  "/Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM/source/Lib/DecoderLib/BinDecoder.cpp" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/BinDecoder.cpp.o" "gcc" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/BinDecoder.cpp.o.d"
+  "/Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM/source/Lib/DecoderLib/CABACReader.cpp" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/CABACReader.cpp.o" "gcc" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/CABACReader.cpp.o.d"
+  "/Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM/source/Lib/DecoderLib/DecCu.cpp" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/DecCu.cpp.o" "gcc" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/DecCu.cpp.o.d"
+  "/Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM/source/Lib/DecoderLib/DecLib.cpp" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/DecLib.cpp.o" "gcc" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/DecLib.cpp.o.d"
+  "/Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM/source/Lib/DecoderLib/DecSlice.cpp" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/DecSlice.cpp.o" "gcc" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/DecSlice.cpp.o.d"
+  "/Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM/source/Lib/DecoderLib/NALread.cpp" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/NALread.cpp.o" "gcc" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/NALread.cpp.o.d"
+  "/Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM/source/Lib/DecoderLib/SEIread.cpp" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/SEIread.cpp.o" "gcc" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/SEIread.cpp.o.d"
+  "/Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM/source/Lib/DecoderLib/VLCReader.cpp" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/VLCReader.cpp.o" "gcc" "source/Lib/DecoderLib/CMakeFiles/DecoderLib.dir/VLCReader.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

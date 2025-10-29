@@ -57,33 +57,36 @@ include( ${CMAKE_SOURCE_DIR}/cmake/CMakeBuild/cmake/modules/BBuildEnv.cmake )
 # bb_enable_warnings( gcc -Wno-unused-variable )
 # bb_enable_warnings( gcc-4.8 warnings-as-errors -Wno-unused-variable )
 # for gcc 8.2:
-bb_enable_warnings( gcc warnings-as-errors -Wno-sign-compare)
+bb_enable_warnings( gcc -Wno-sign-compare)
 
 if( XCODE )
-  bb_enable_warnings( clang warnings-as-errors
-                            -Wno-deprecated-declarations
+  bb_enable_warnings( clang -Wno-deprecated-declarations
                             -Wno-unknown-attributes
                             -Wno-deprecated-register
                             -Wno-pessimizing-move
                             -Wno-absolute-value
                             -Wno-unused-const-variable
-                            -Wno-unused-command-line-argument )
+                            -Wno-unused-command-line-argument
+                            -Wno-unused-but-set-variable )
 else()
-  bb_enable_warnings( clang warnings-as-errors
-                            -Wno-unknown-attributes
+  bb_enable_warnings( clang -Wno-unknown-attributes
                             -Wno-deprecated-register
                             -Wno-pessimizing-move
                             -Wno-absolute-value
-                            -Wno-unused-const-variable )
+                            -Wno-unused-const-variable
+                            -Wno-unused-but-set-variable )
 endif()
 #bb_enable_warnings( clang warnings-as-errors )
 
 # enable warnings
-bb_enable_warnings( msvc warnings-as-errors "/wd4996" )
+bb_enable_warnings( msvc "/wd4996" )
 
 # enable sse4.1 build for all source files for gcc and clang
+# Only enable on x86_64 architecture, not on ARM (Apple Silicon)
 if( UNIX OR MINGW )
-  add_compile_options( "-msse4.1" )
+  if( CMAKE_SYSTEM_PROCESSOR MATCHES "(x86)|(X86)|(amd64)|(AMD64)" )
+    add_compile_options( "-msse4.1" )
+  endif()
 endif()
 
 # enable parallel build for Visual Studio

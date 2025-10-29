@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "../../../../bin/umake/gcc-9.4/x86_64/release/parcat"
-  "../../../../bin/umake/gcc-9.4/x86_64/release/parcat.pdb"
+  "/Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM/bin/umake/clang-17.0/x86_64/release/parcat"
+  "/Users/jfilipe/Documents/GitHub/vvc_qtmt_demo/vvc/VVCSoftware_VTM/bin/umake/clang-17.0/x86_64/release/parcat.pdb"
   "CMakeFiles/parcat.dir/parcat.cpp.o"
+  "CMakeFiles/parcat.dir/parcat.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
