@@ -42,3 +42,4 @@
 
 # Include Windows compiled executables
 !/vvc/windows/*.exe
+/python/__pycache__
